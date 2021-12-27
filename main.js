@@ -22,21 +22,20 @@ const questions = [{
         question: "Who really has very good soft skills?",
         options: [
             "Everybody",
-            "Nobody",
             "Kostyantyn Skaklinyov",
             "Somebody",
         ],
-        rightAnswer: 2,
+        rightAnswer: 1,
     },
     {
         question: "Who studies QA, programming and English every day?",
-        options: ["Dogs", "Kostyantyn Skaklinyov", "Cats", "Unicorns"],
+        options: ["Dogs", "Kostyantyn Skaklinyov", "Cats"],
         rightAnswer: 1,
     },
     {
         question: "Who is the most motivated to work for the best results?",
-        options: ["...don't know", "...difficult to say", "...anybody", "Kostyantyn Skaklinyov"],
-        rightAnswer: 3,
+        options: ["...don't know", "...difficult to say", "Kostyantyn Skaklinyov"],
+        rightAnswer: 2,
     },
 ];
 numberOfAllQuestions.innerHTML = questions.length;
@@ -47,7 +46,7 @@ const load = () => {
     option1.innerHTML = questions[indexOfQuestion].options[0];
     option2.innerHTML = questions[indexOfQuestion].options[1];
     option3.innerHTML = questions[indexOfQuestion].options[2];
-    option4.innerHTML = questions[indexOfQuestion].options[3];
+    
 
     numberOfQuestion.innerHTML = indexOfPage + 1;
     indexOfPage++;
