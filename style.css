@@ -30,11 +30,10 @@
     .first-screen {
         width: 40%;
         height: max-content;
-        color: black;
-        background-color: white;
+        color: white;
+        background-color: darkcyan;
         margin: 15% auto;
         border-radius: 10px;
-        /* padding: 25px; */
         border: 3px solid yellow;
         text-align: center;
         font-size: 120%;
