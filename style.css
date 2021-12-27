@@ -18,6 +18,7 @@ body {
     padding: 5px;
     margin: auto;
     display: flex;
+    align-items: center;
     position: absolute;
     z-index: 12;
     justify-content: center;
