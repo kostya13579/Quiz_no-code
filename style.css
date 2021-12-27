@@ -17,7 +17,7 @@
         margin: auto;
         background-color: darkcyan;
         padding: 5px;
-        display: flex;
+        display: block;
         align-items: center;
         position: absolute;
         z-index: 12;
