@@ -22,19 +22,19 @@ const questions = [{
         question: "Who really has very good soft skills?",
         options: [
             "Everybody",
-            "Kostyantyn Skaklinyov",
+            "Kostyantyn",
             "Somebody",
         ],
         rightAnswer: 1,
     },
     {
         question: "Who studies QA, programming and English every day?",
-        options: ["Dogs", "Kostyantyn Skaklinyov", "Cats"],
+        options: ["Dogs", "Kostyantyn", "Cats"],
         rightAnswer: 1,
     },
     {
         question: "Who is the most motivated to work for the best results?",
-        options: ["...don't know", "...difficult to say", "Kostyantyn Skaklinyov"],
+        options: ["...don't know", "...difficult to say", "Kostyantyn"],
         rightAnswer: 2,
     },
 ];
