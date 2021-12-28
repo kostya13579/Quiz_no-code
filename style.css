@@ -1,11 +1,10 @@
-    body {
+   body {
         margin: 0;
-        background-color: rgb(132, 201, 132);
+        background-color: darkcyan;
         font-family: sans-serif;
         padding: auto 0;
         overflow: auto hidden;
         align-items: center;
-        /*display: flex;*/
     }
     
     * {
@@ -16,9 +15,9 @@
         width: 100%;
         height: 100%;
         margin: auto;
-        background-color: rgb(132, 201, 132);
+        background-color: darkcyan;
         padding: 5px;
-        display: block;
+        display: flex;
         align-items: center;
         position: absolute;
         z-index: 12;
@@ -29,12 +28,13 @@
     }
     
     .first-screen {
-        width: 40%;
+        width: 60%;
         height: max-content;
-        color: white;
-        background-color: darkcyan;
+        color: black;
+        background-color: white;
         margin: 15% auto;
         border-radius: 10px;
+        /* padding: 25px; */
         border: 3px solid yellow;
         text-align: center;
         font-size: 120%;
@@ -88,12 +88,11 @@
         background-color: #ffffff;
         margin: 5% auto;
         position: flex;
-        display: flex;
         border-radius: 10px;
         padding: 10px;
         border: 3px solid yellow;
-        /*overflow-y: hidden;
-        overflow-x: hidden;*/
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
     
     .question-number h3 {
@@ -191,7 +190,7 @@
         top: 0;
         width: 100%;
         height: 100%;
-        background-color: rgb(132, 201, 132);
+        background-color: rgba(0, 0, 0, 1.0);
         z-index: 10;
         display: none;
         align-items: center;
@@ -237,20 +236,3 @@
     .quiz-over-modal .content button:active {
         background-color: green;
     }
-    
-    @media (orientation: landscape) {
-            /*body {
-                flex-direction: row;
-            }*/
-             .quiz-container {
-                flex-direction: column;
-            }
-     }
-        
-  /* @media (orientation: portrait) {
-            body {
-                flex-direction: column;
-            }
-     }*/
-
-
