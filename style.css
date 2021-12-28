@@ -5,6 +5,7 @@
         padding: auto 0;
         overflow: auto hidden;
         align-items: center;
+        display: flex;
     }
     
     * {
