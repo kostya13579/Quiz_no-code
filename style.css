@@ -239,18 +239,18 @@
     }
     
     @media (orientation: landscape) {
-            body {
+            /*body {
                 flex-direction: row;
-            }
+            }*/
              .quiz-container {
                 flex-direction: column;
             }
-        }
+     }
         
-        @media (orientation: portrait) {
+  /* @media (orientation: portrait) {
             body {
                 flex-direction: column;
             }
-     }
+     }*/
 
 
