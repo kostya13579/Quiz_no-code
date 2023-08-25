@@ -28,7 +28,7 @@ const questions = [{
         rightAnswer: 1,
     },
     {
-        question: "Who studies QA, programming and English every day?",
+        question: "Who studies Airtable / Zapier / Google Sheets, programming and English every day?",
         options: ["Dogs", "Kostyantyn", "Cats"],
         rightAnswer: 1,
     },
